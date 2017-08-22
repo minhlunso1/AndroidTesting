@@ -17,6 +17,8 @@ public class SortTest1 {
     int[] assertList = new int[]{1, 8, 3, 7, 4, 6, 5};
     int[] list1 = new int[]{12, 10, 1, -3};
     int[] assertList1 = new int[]{-3, 12, 1, 10};
+    int[] list2 = new int[]{5, 3, 2};
+    int[] assertList2 = new int[]{2, 5, 3};
 
     public int[] sortList(int[] list) {
         int[] result = new int[list.length];
@@ -50,5 +52,6 @@ public class SortTest1 {
         int[] sortedList = sortList(list);
         Assert.assertEquals(assertList(sortedList, assertList), true);
         Assert.assertEquals(assertList(sortList(list1), assertList1), true);
+        Assert.assertEquals(assertList(sortList(list2), assertList2), true);
     }
 }
