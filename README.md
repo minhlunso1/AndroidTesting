@@ -11,8 +11,10 @@ Author: **Minh Nguyen**
 2/	
 	Merge two descending list and make a descending sort array
 	list2.maxVal > list1.maxVal && list2.length > list1.length
-	The best algorithm BigO(n).
+	The best algorithm BigO(n + m).
 	
 3/
 	Sort list following the format: 1, n-1, 2, n-2 on descending list
 	The best algorithm BigO(n).
+	
+4/  Palindrome
