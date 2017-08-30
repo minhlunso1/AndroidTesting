@@ -18,3 +18,6 @@ Author: **Minh Nguyen**
 	The best algorithm BigO(n).
 	
 4/  Palindrome
+
+5/
+	FindLastSameSingleList

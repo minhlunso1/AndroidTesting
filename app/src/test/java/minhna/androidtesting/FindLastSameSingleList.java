@@ -12,7 +12,7 @@ import java.util.List;
  * Created by Administrator on 30-Aug-17.
  */
 
-public class FindLastNameSingleList {
+public class FindLastSameSingleList {
     Node node1;
     Node node2;
 
