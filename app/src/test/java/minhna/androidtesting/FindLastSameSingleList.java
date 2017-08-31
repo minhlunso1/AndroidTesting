@@ -16,19 +16,6 @@ public class FindLastSameSingleList {
     Node node1;
     Node node2;
 
-    public class Node {
-        String value;
-        Node nextNode;
-
-        public Node() {
-        }
-
-        public Node(String value, Node nextNode) {
-            this.value = value;
-            this.nextNode = nextNode;
-        }
-    }
-
     @Before
     public void buildNode() {
         node1 = new Node();
