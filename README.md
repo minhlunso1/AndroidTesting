@@ -25,3 +25,8 @@ Author: **Minh Nguyen**
 6/
 	Merge two ascending single-linked list and make a descending single-linked list.
 	The best algorithm BigO(n).
+	
+7/
+   Sort single-linked list following the format: 1, n-1, 2, n-2 on descending linked list.
+   Sort on the same list.
+   The best algorithm BigO(n).
