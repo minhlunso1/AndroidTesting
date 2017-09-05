@@ -8,11 +8,11 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-/*
-    A queue contains a number of people who want to buy tickets. Each buying time takes 1 seconds
-    and in each turn can buy only one ticket. To continue, that person must be enqueued in the last list.
-    The best algorithm BigO(n)
- */
+/**
+*   A queue contains a number of people who want to buy tickets. Each buying time takes 1 seconds
+*   and in each turn can buy only one ticket. To continue, that person must be enqueued in the last list.
+*   The best algorithm BigO(n)
+ **/
 public class TimeTicketQueueTest {
     int position;
     int[] listTicketQueue;
@@ -29,7 +29,7 @@ public class TimeTicketQueueTest {
 
         int beforeCount = getListCountBefore(position);
         int afterCount = getListCountAfter(position, queueSize);
-        int numberOfTicketInTargetPos = listTicketQueue[2];
+        int numberOfTicketInTargetPos = listTicketQueue[position];
 
         int time = beforeCount + afterCount + numberOfTicketInTargetPos;
         System.out.println("Before (s): " + beforeCount);

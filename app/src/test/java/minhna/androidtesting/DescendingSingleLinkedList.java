@@ -27,43 +27,34 @@ public class DescendingSingleLinkedList {
         node2.value = 5;
         node2.nextNode = new IntNode(7, new IntNode(8, new IntNode(10, null)));
     }
+
+    public IntNode addHead(IntNode head, int value) {
+        IntNode returnNode = new IntNode(value, null);
+        if (head != null)
+            returnNode.nextNode = head;
+        return returnNode;
+    }
     
     public IntNode getDescendingSingleLinkedList(IntNode node1, IntNode node2) {
-        IntNode returnIntNode = new IntNode();
+        IntNode returnIntNode = null;
         while (node1 != null && node2!= null) {
             if (node1.value < node2.value) {
-                IntNode tmp = new IntNode();
-                IntNode previousList = returnIntNode.nextNode;
-                tmp.value = node1.value;
-                tmp.nextNode = previousList;
-                returnIntNode.nextNode = tmp;
+                returnIntNode = addHead(returnIntNode, node1.value);
                 node1 = node1.nextNode;
             } else {
-                IntNode tmp = new IntNode();
-                IntNode previousList = returnIntNode.nextNode;
-                tmp.value = node2.value;
-                tmp.nextNode = previousList;
-                returnIntNode.nextNode = tmp;
+                returnIntNode = addHead(returnIntNode, node2.value);
                 node2 = node2.nextNode;
             }
         }
         while (node1 != null) {
-            IntNode tmp = new IntNode();
-            IntNode previousList = returnIntNode.nextNode;
-            tmp.value = node1.value;
-            tmp.nextNode = previousList;
-            returnIntNode.nextNode = tmp;
+            returnIntNode = addHead(returnIntNode, node1.value);
             node1 = node1.nextNode;
         }
         while (node2 != null) {
-            IntNode tmp = new IntNode();
-            IntNode previousList = returnIntNode.nextNode;
-            tmp.value = node2.value;
-            tmp.nextNode = previousList;
-            returnIntNode.nextNode = tmp;
+            returnIntNode = addHead(returnIntNode, node2.value);
             node2 = node2.nextNode;
         }
-        return returnIntNode.nextNode;
+        return returnIntNode;
     }
 
     @Test

@@ -30,29 +30,19 @@ public class PalindromeTest {
             String left = "";
             String right = "";
             int pivot = charArray.length / 2;
-            if (charArray.length % 2 != 0) {
-                for (int i = charArray.length - 1, j = 0; i > pivot; i--, j++) {
-                    if (charArray[j] == charArray[i]) {
-                        left += String.valueOf(charArray[j]);
-                        right = String.valueOf(charArray[i]) + right;
-                    } else {
-                        left += String.valueOf(charArray[j]) + String.valueOf(charArray[i]);
-                        right = String.valueOf(charArray[i]) + String.valueOf(charArray[j]) + right;
-                    }
+            for (int i = charArray.length - 1, j = 0; i > pivot; i--, j++) {
+                if (charArray[j] == charArray[i]) {
+                    left += String.valueOf(charArray[j]);
+                    right = String.valueOf(charArray[i]) + right;
+                } else {
+                    left += String.valueOf(charArray[j]) + String.valueOf(charArray[i]);
+                    right = String.valueOf(charArray[i]) + String.valueOf(charArray[j]) + right;
                 }
-                result = left + charArray[pivot] + right;
-            } else {
-                for (int i = charArray.length - 1, j = 0; i > pivot; i--, j++) {
-                    if (charArray[j] == charArray[i]) {
-                        left += String.valueOf(charArray[j]);
-                        right = String.valueOf(charArray[i]) + right;
-                    } else {
-                        left += String.valueOf(charArray[j]) + String.valueOf(charArray[i]);
-                        right = String.valueOf(charArray[i]) + String.valueOf(charArray[j]) + right;
-                    }
-                }
-                result = left + right;
             }
+            result = left;
+            if (charArray.length % 2 != 0)
+                result += pivot;
+            result += right;
         }
         return result;
     }
