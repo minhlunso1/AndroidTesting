@@ -30,3 +30,6 @@ Author: **Minh Nguyen**
    Sort single-linked list following the format: 1, n-1, 2, n-2 on descending linked list.
    Sort on the same list.
    The best algorithm BigO(n).
+
+8/
+   Find the shortest child string that contains all chars of the original string.
