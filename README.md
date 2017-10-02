@@ -33,3 +33,9 @@ Author: **Minh Nguyen**
 
 8/
    Find the shortest child string that contains all chars of the original string.
+   
+9/
+   Find the pivot matching the condition: Sum of left equals to sum of right.
+   Value in array is positive numbers.
+   The best algorithm BigO(n).
+

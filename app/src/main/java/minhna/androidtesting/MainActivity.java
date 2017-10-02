@@ -1,7 +1,8 @@
 package minhna.androidtesting;
 
-import android.app.ProgressDialog;
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -15,7 +16,9 @@ import android.view.View;
  */
 
 public class MainActivity extends AppCompatActivity {
+    public final int a = 5;
     public final String TAG = "TestApp";
+
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -80,7 +83,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showProgressDialog(View view) {
-        ProgressDialog progressDialog = new ProgressDialog(this);
-        progressDialog.show();
-    }
+//        ProgressDialog progressDialog = new ProgressDialog(this);
+//        progressDialog.show();
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
+        alertDialogBuilder.setTitle(R.string.title).setMessage(R.string.message).setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int which) {
+            }
+        }).setNegativeButton(R.string.no, new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int which) {
+            }
+        }).show();    }
 }
