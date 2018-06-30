@@ -19,7 +19,7 @@ public class Basic {
         emulSortAlphabetically();
     }
 
-    public boolean isPrimeNumber(int n) {
+    private boolean isPrimeNumber(int n) {
         if (n < 2)
             return false;
         int squareRoot = (int) Math.sqrt(n);
@@ -31,7 +31,7 @@ public class Basic {
         return true;
     }
 
-    public void emulSortAlphabetically()  {
+    private void emulSortAlphabetically()  {
         ArrayList<String> list = new ArrayList<>();
         list.add("Kim");
         list.add("Dan");
