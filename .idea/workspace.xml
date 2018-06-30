@@ -27,6 +27,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cd83f7e4-85fb-4cfd-bc73-5531e70d4e02" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/minhna/androidtesting/Basic.java" afterPath="$PROJECT_DIR$/app/src/test/java/minhna/androidtesting/Basic.java" />
     </list>
     <ignored path="AndroidTesting.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,21 +63,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SortMergeDecreaseTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/test/java/minhna/androidtesting/SortMergeDecreaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Basic.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Basic.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/test/java/minhna/androidtesting/Basic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+            <state relative-caret-position="286">
+              <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -2134,9 +2125,9 @@
         <option value="$PROJECT_DIR$/app/src/main/java/minhna/androidtesting/SecondFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/minhna/androidtesting/progress_circle_layout/ProgressCircleLayout.java" />
         <option value="$PROJECT_DIR$/app/src/test/java/minhna/androidtesting/FindBalancedSumIndex.java" />
-        <option value="$PROJECT_DIR$/app/src/test/java/minhna/androidtesting/Basic.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/test/java/minhna/androidtesting/SortMergeDecreaseTest.java" />
+        <option value="$PROJECT_DIR$/app/src/test/java/minhna/androidtesting/Basic.java" />
       </list>
     </option>
   </component>
@@ -2199,7 +2190,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="device.picker.selection" value="192.168.141.101:5555" />
     <property name="sync.plugin.last.upgrade.timestamp" value="1515328200366" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1530381020127" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1530381783242" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -3220,16 +3211,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/minhna/androidtesting/Basic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.gradle/gradle.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -3256,9 +3237,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/test/java/minhna/androidtesting/SortMergeDecreaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="-864">
           <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/minhna/androidtesting/Basic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
