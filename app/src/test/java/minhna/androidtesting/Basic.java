@@ -37,7 +37,7 @@ public class Basic {
         list.add("Dan");
         list.add("dan");
         list.add("minh");
-        list.sort((p1, p2) -> p1.compareTo(p2));
+        list.sort((p1, p2) -> p1.compareTo(p2));//another syntax list.sort(String::compareTo);
         for (int i = 0; i < list.size(); i++)
             System.out.println(list.get(i));
     }
