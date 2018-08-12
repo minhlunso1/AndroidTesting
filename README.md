@@ -10,7 +10,7 @@ Author: **Minh Nguyen**
 
 2/	
 	Merge two descending list and make a descending sort array.
-	list2.maxVal > list1.maxVal && list2.length > list1.length
+	list2.maxVal > list1.maxVal and list2.length > list1.length
 	The best algorithm BigO(n + m).
 	
 3/
@@ -38,4 +38,7 @@ Author: **Minh Nguyen**
    Find the pivot matching the condition: Sum of left equals to sum of right.
    Value in array is positive numbers.
    The best algorithm BigO(n).
+   
+10/
+   Display all the most appearances of items on list which contains list.
 
